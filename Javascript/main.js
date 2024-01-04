@@ -8,3 +8,12 @@ burger.addEventListener("click", () =>{
     slide.classList.toggle("active");
     burgerpath.classList.toggle("blue")
 })
+
+document.addEventListener("scroll", () =>{
+    if(slide.classList.contains("active")){
+        slide.classList.remove("active");
+        burgerpath.classList.remove("blue")
+    }
+
+
+})

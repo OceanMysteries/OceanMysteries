@@ -59,6 +59,8 @@ body{
 
     width: 100vw;
 
+    position: relative;
+
     overflow-x: hidden;
 }
 
@@ -260,6 +262,8 @@ label{
         width: 400px;
 
         z-index: 1000;
+
+        margin-top: 32px;
     }
 
     nav svg{
@@ -284,7 +288,7 @@ label{
         flex-direction: column;
         justify-content: flex-end;
         width: 100vw;
-        height: 100vh;
+        margin-top: 80px;
     }
 
     #Responsive-nav li{
@@ -292,7 +296,7 @@ label{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 18vh;
+        height: 100%;
         width: 100%;
         color: #2C448C;
     }
@@ -302,7 +306,7 @@ label{
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
 
         color: #2C448C;
         font-size: 32px;
