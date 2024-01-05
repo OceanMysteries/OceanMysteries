@@ -175,6 +175,11 @@ label{
 }
 
 
+mark{
+    background: none;
+    color: #FE1616;
+}
+
 
 #information{
     color: #FFF;
@@ -227,6 +232,10 @@ label{
 
     .redirection-photo{
         width: 100%;
+    }
+
+    h1{
+        font-size: 84px;
     }
   }
 
