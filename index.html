@@ -62,10 +62,11 @@
             <section class="mt-124 mb-124">
                 <h1>OCEAN MYSTERIES</h1>
                 <h2>02 - 03 - 2024</h2>
-                <audio onload="autoplay()" controls autoplay class="mt-32">
+                <audio id="myAudio" controls autoplay class="mt-32">
                     <source src="images/Belleaire.mp3" type="audio/mp3">
                     Votre navigateur ne prend pas en charge l'élément audio.
                 </audio>
+
             </section>
     
             <section id="information" class="mt-124">
@@ -103,12 +104,13 @@
                         </div>
                     </a>
                     
-    
-                    <div class="card col-2">
-                        <img  class="mb-20" src="images/repas.png" alt="Repas des mers">
-                        <p class="title-card">Invitation</p>
-                        <p>Vous êtes invités à 20 heures précises</p>
-                    </div>
+                    <a href="rsvp.html" class="col-2">
+                        <div class="card">
+                            <img  class="mb-20" src="images/repas.png" alt="Repas des mers">
+                            <p class="title-card">Invitation</p>
+                            <p>Vous êtes invités à 20 heures précises</p>
+                        </div>
+                    </a>
                     
                     <a class="col-2" href="mailto: oceanmysteriesevent@gmail.com">
                         <div class="card">
@@ -140,10 +142,6 @@
     </body>
 
     <script src="Javascript/main.js"></script>
-    <script>
-        autoplay(
-            console.log("test")
-        )
-    </script>
+
 
 </html>

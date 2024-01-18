@@ -1,5 +1,8 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw1-dHGeYXQe6O9uudyyrS6Lo19La_5Z2j1Y5RT4FejoJqdN-mGpU0zMlxIQgoDPZjcTA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzACBrDFWG3Uz75lO39pETTQQJfURUT1TzUWSxhtNwXrEM0LD6mDSKrVj9V3Ey6Kf7qhA/exec';
 const Rform = document.forms['remerciement-form'];
+
+const participationSelect = document.getElementById("participation");
+        const selectedValue = participationSelect.value;
 
 Rform.addEventListener('submit', e => {
   e.preventDefault();

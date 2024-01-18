@@ -3,13 +3,18 @@
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyhABN8bXNtoLFIeg4k88XGobas4AnGB6lxR-jYPVhsUb1bDqUKInvlc3F8cfrnxV1IIQ/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzACBrDFWG3Uz75lO39pETTQQJfURUT1TzUWSxhtNwXrEM0LD6mDSKrVj9V3Ey6Kf7qhA/exec';
 
 const form = document.forms['rsvp-form'];
 
-form.addEventListener('submit', e => {
-  e.preventDefault();
+var rsvpForm = document.getElementById("rsvp-form");
 
+
+form.addEventListener('submit', e => {
+  const submitButton = document.getElementById('submitBtn');
+  // submitButton.style.pointerEvents = "none"
+  e.preventDefault();
+  
   // Ajoutez le champ formType avec la valeur 'form1' aux données du formulaire
   const formData = new FormData(form);
   formData.append('formType', 'form1');
@@ -25,4 +30,6 @@ form.addEventListener('submit', e => {
 
 
   
+
+
 
