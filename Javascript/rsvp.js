@@ -3,7 +3,7 @@
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw1-dHGeYXQe6O9uudyyrS6Lo19La_5Z2j1Y5RT4FejoJqdN-mGpU0zMlxIQgoDPZjcTA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyhABN8bXNtoLFIeg4k88XGobas4AnGB6lxR-jYPVhsUb1bDqUKInvlc3F8cfrnxV1IIQ/exec';
 
 const form = document.forms['rsvp-form'];
 
