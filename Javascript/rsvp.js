@@ -12,7 +12,7 @@ var rsvpForm = document.getElementById("rsvp-form");
 
 form.addEventListener('submit', e => {
   const submitButton = document.getElementById('submitBtn');
-  // submitButton.style.pointerEvents = "none"
+  submitButton.style.pointerEvents = "none"
   e.preventDefault();
   
   // Ajoutez le champ formType avec la valeur 'form1' aux données du formulaire
