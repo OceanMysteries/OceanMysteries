@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzACBrDFWG3Uz75lO39pETTQQJfURUT1TzUWSxhtNwXrEM0LD6mDSKrVj9V3Ey6Kf7qhA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyHAFKHCMEwqaeRxP3iz9eBuv0yJu4DxFVDAno6juxKz3zRanlgFAKppSjr3t6OXioO2w/exec';
 const Rform = document.forms['remerciement-form'];
 
 const participationSelect = document.getElementById("participation");
