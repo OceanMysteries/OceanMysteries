@@ -2,6 +2,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyHAFKHCMEwqaeRxP3iz9
 const Rform = document.forms['remerciement-form'];
 
 Rform.addEventListener('submit', e => {
+  const submitButton = document.getElementById('submitBtn');
+  submitButton.style.pointerEvents = "none"
   e.preventDefault();
 
   // Ajoutez le champ formType avec la valeur 'form2' aux données du formulaire
