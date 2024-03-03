@@ -299,6 +299,7 @@ mark{
         justify-content: flex-end;
         width: 100vw;
         margin-top: 80px;
+        height: 75vh;
     }
 
     #Responsive-nav li{
